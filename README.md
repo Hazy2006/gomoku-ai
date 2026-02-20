@@ -2,8 +2,9 @@
 
 A GUI-based implementation of Gomoku featuring a minimax-powered AI opponent with adjustable difficulty levels.
 
-![Gameplay](assets/gameplay.png)
-
+<p align="center">
+  <img src="assets/gameplay.png" width="700">
+</p>
 ## Overview
 
 This project implements the classic Gomoku (Five in a Row) board game with:

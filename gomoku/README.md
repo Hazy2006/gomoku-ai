@@ -56,8 +56,8 @@ gomoku/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Hazy2006/gomoku.git
-cd gomoku
+git clone https://github.com/Hazy2006/gomoku-ai.git
+cd gomoku-ai
 ```
 
 2. Ensure you have Python 3.6 or higher installed:
@@ -133,8 +133,8 @@ python -m unittest tests.test_ai
 2. **Block opponent**: Prevents opponent from completing 5 in a row
 3. **Strategic placement**: Places pieces near existing pieces, preferring center
 
-### Hard Difficulty
-Uses minimax algorithm with alpha-beta pruning:
+### Hard Difficulty - Hard mode implements depth-limited Minimax with Alpha-Beta pruning for performance optimization.
+The pruning procedure:
 - Evaluates multiple moves ahead
 - Considers both offensive and defensive positions
 - Optimizes for winning while minimizing opponent's chances
@@ -165,5 +165,6 @@ This separation allows for:
 This project is open source and available for educational purposes.
 
 ## Author
+
 
 Created as a demonstration of OOP principles and layered architecture in Python.
